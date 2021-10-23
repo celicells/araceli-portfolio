@@ -1,5 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
+import'./Profile.css'
 
 function Profile(props) {
   return (
@@ -7,15 +8,17 @@ function Profile(props) {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <a href="https://www.facebook.com/profile.php?id=100004540803036">
-              <i className="fa fa-facebook-square"></i>
-            </a>
-            <a href="https://www.instagram.com/___celi__/">
-              <i className="fa fa-instagram"></i>
-            </a>
-            <a href="https://twitter.com/aCeli__">
-              <i className="fa fa-twitter"></i>
-            </a>
+            <div className='colz-icon'>
+              <a href="https://www.facebook.com/profile.php?id=100004540803036">
+                <i className="fa fa-facebook-square"></i>
+              </a>
+              <a href="https://www.instagram.com/___celi__/">
+                <i className="fa fa-instagram"></i>
+              </a>
+              <a href="https://twitter.com/aCeli__">
+                <i className="fa fa-twitter"></i>
+              </a>
+            </div>
           </div>
           <div className="profile-details-name">
             <span className="primary-text">
@@ -50,13 +53,18 @@ function Profile(props) {
               </span>
             </span>
           </div>
-          <div className='profile-options'>
-              <button className='btn primary-btn'>
-                  {""}
-                  Hire me{" "}
-              </button>
-              <a href='#'></a>
+          <div className="profile-options">
+            <button className="btn primary-btn">
+              {""}
+              Hire me{" "}
+            </button>
+            <a href="Araceli2020.pdf" download="Araceli Araceli2020.pdf">
+              <button className="btn highlighted-btn"> Get Resume</button>
+            </a>
           </div>
+        </div>
+        <div className="profile-image">
+          <div className="profile-image-background"></div>
         </div>
       </div>
     </div>
