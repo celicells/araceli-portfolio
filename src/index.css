@@ -45,7 +45,7 @@ body ::-webkit-scrollbar-thumb{
   color: var(--white);
   border: 2px solid white;
   font-size: 12px;
-  background-color: #264143;
+  background-color: #325457;
 }
 
 /* @media only screen and (max-width:414px){.primary-btn {font-size:13px}} */

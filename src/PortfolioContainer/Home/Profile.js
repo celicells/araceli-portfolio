@@ -18,6 +18,9 @@ function Profile(props) {
               <a href="https://twitter.com/aCeli__">
                 <i className="fa fa-twitter"></i>
               </a>
+              <a href="https://www.linkedin.com/in/araceli-garcia-119972209/">
+                <i className="fa fa-linkedin"></i>
+              </a>
             </div>
           </div>
           <div className="profile-details-name">
@@ -58,7 +61,7 @@ function Profile(props) {
               {""}
               Hire me{" "}
             </button>
-            <a href="Araceli2020.pdf" download="Araceli Araceli2020.pdf">
+            <a href="Resume.pdf" download="Araceli Resume.pdf">
               <button className="btn highlighted-btn"> Get Resume</button>
             </a>
           </div>
